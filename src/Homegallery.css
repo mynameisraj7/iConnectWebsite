@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.whitegallery {
+  font-family: "Cal Sans", sans-serif;
+  min-height: 110vh;
+  padding: 4%;
+}
+
+.galleryheading {
+  font-size: 3.4rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+

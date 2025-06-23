@@ -1,0 +1,176 @@
+.blacksec {
+  background-color: black;
+  font-family: "Cal Sans", sans-serif;
+  color: whitesmoke;
+  padding: 5%;
+  min-height: 100vh;
+}
+
+.initheading {
+  font-size: 2.4rem;
+  font-family: "Outfit", sans-serif;
+  font-weight: 500;
+  margin-left: 40px;
+}
+
+.cardcontainer {
+  display: flex;
+  flex-wrap: wrap; /* ✅ responsive wrap */
+  align-items: flex-start;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.leftcont,
+.middlecont,
+.rightcont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  flex: 1;
+  padding-top: 5%;
+  min-width: 300px;
+}
+
+/* Adjust padding for middle */
+.middlecont {
+  padding-top: 20%;
+}
+
+.initcard {
+  width: 100%;
+  max-width: 358px;
+  min-height: 450px;
+  border-radius: 24px;
+  padding: 16px;
+  box-sizing: border-box;
+  transition: transform 0.3s;
+}
+.initcard:hover {
+  transform: scale(1.02);
+}
+
+.initcard img {
+  height: 204px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 12px;
+}
+
+.initcard h2 {
+  font-size: 1.5rem;
+  letter-spacing: 2px;
+  margin: 10px 0 5px 13px;
+}
+
+.initcard p {
+  font-size: 1rem;
+  padding-left: 13px;
+  font-weight: 200;
+  line-height: 1.5;
+  padding-bottom: 5px;
+}
+
+.initcard div {
+  text-align: right;
+  text-decoration: underline;
+  padding-right: 13px;
+}
+
+/* Left Column */
+.leftcont div:nth-child(1) {
+  background: linear-gradient(151deg, rgba(255, 255, 255, 0.17), rgba(153, 153, 153, 0.17), rgba(219, 0, 9, 0.17));
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.10) inset;
+  backdrop-filter: blur(20px);
+}
+
+.leftcont div:nth-child(2) {
+  background: linear-gradient(151deg, rgba(255, 255, 255, 0.17), rgba(153, 153, 153, 0.17), rgba(1, 196, 111, 0.17));
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.10) inset;
+  backdrop-filter: blur(20px);
+}
+
+/* Middle Column */
+.middlecont .initcard {
+  background: linear-gradient(151deg, rgba(255, 255, 255, 0.17), rgba(153, 153, 153, 0.17), rgba(212, 171, 0, 0.17));
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.10) inset;
+  backdrop-filter: blur(20px);
+}
+
+/* Right Column */
+.rightcont div:nth-child(1) {
+  background: linear-gradient(151deg, rgba(255, 255, 255, 0.17), rgba(153, 153, 153, 0.17), rgba(161, 75, 163, 0.17));
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.10) inset;
+  backdrop-filter: blur(20px);
+}
+
+.rightcont div:nth-child(2) {
+  background: linear-gradient(151deg, rgba(255, 255, 255, 0.17), rgba(153, 153, 153, 0.17), rgba(0, 117, 194, 0.17));
+  box-shadow: 0px 0px 10px 5px rgba(255, 255, 255, 0.10) inset;
+  backdrop-filter: blur(20px);
+}
+
+
+/* 🎯 RESPONSIVE MEDIA QUERIES */
+
+/* Tablets */
+@media (max-width: 992px) {
+  .cardcontainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftcont,
+  .middlecont,
+  .rightcont {
+    padding-top: 5%;
+  }
+
+  .middlecont {
+    padding-top: 5%;
+  }
+  .initheading {
+    text-align: center;
+    margin-left: 0;
+  }
+}
+
+/* Phones */
+@media (max-width: 576px) {
+  .initheading {
+    font-size: 1.8rem;
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .initcard {
+    width: 100%;
+    max-width: 320px; /* ✅ smaller width */
+    min-height: 400px;
+    padding: 12px;
+  }
+
+  .initcard img {
+    height: 180px;
+    border-radius: 10px;
+  }
+
+  .initcard h2 {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    margin-left: 10px;
+  }
+
+  .initcard p {
+    font-size: 0.9rem;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .initcard div {
+    padding-right: 10px;
+  }
+}
+
