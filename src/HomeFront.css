@@ -1,0 +1,229 @@
+.blacksection {
+  position: relative;
+
+  background-image: url("assets/frontbackground.png");
+  height: 100vh;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+
+  /* min-height: 100vh; */
+
+  padding-top: 180px; /* Fixed padding for navbar */
+  overflow: hidden;
+}
+
+.custom-class {
+  margin-top: 42px;
+  font-weight: 200;
+  font-size: clamp(2rem, 6vw, 3.3rem); 
+  font-family: "Roboto", sans-serif;
+  line-height: 1.2;
+}
+
+.maintitle {
+  color: aqua;
+  font-family: "LEMONMILK";
+  font-size: clamp(3rem, 9vw, 8rem);
+  letter-spacing: 0.3rem;
+  background: linear-gradient(280deg, #ff00cc, #ffcc00, #00ffcc, #3333ff, #ff00cc, #ffcc00, #00ffcc, #3333ff);
+  background-size: 200% 50%;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: flow 6s linear infinite;
+}
+
+@keyframes flow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+.rotwords {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+.rotwords div {
+  font-size: clamp(1.5rem, 5vw, 3.2rem);
+  font-weight: 700;
+  font-family: "Helvetica", sans-serif;
+  font-style: normal;
+  color: white;
+}
+
+.button-container {
+  position: relative;
+}
+
+.rotating-button {
+  margin-top: 1.5rem;
+  padding: 1rem 3rem;
+  font-size: 1.2rem;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  color: white;
+  border: 3px solid white;
+  border-radius: 10px;
+  background: transparent;
+  cursor: pointer;
+  overflow: hidden;
+  transition: background 0.4s ease, color 0.4s ease;
+}
+
+.rotating-button span {
+  display: inline-block;
+  position: relative;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  animation: none;
+}
+
+.rotating-button:hover span {
+  animation: scrollUpOnce 0.3s ease-in-out;
+}
+
+@keyframes scrollUpOnce {
+  0% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  45% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  55% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.rotating-button:hover {
+  background: white;
+  color: black;
+}
+
+.socials {
+  position: absolute;
+  left: 2vw;
+  bottom: 6vh;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  z-index: 10;
+}
+
+.socials i {
+  color: rgb(190, 190, 190);
+  font-size: 2.5rem;
+  transition: 0.3s ease;
+}
+
+.socials i:hover {
+  color: white;
+  transform: scale(1.1);
+}
+
+/* === RESPONSIVE BREAKPOINTS === */
+
+/* Tablet */
+@media (max-width: 992px) {
+  .blacksection {
+    padding-top: 150px; 
+    padding-bottom: 5%;
+    min-height: 100vh;
+    /* background-position: top 50% right 50%; */
+  }
+
+  .custom-class {
+    font-size: 2.4rem;
+  }
+
+  .maintitle {
+    font-size: 5rem;
+    letter-spacing: 0.15rem;
+  }
+
+  .rotwords {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+
+  .rotwords div {
+    font-size: 2.2rem;
+  }
+
+  .rotating-button {
+    padding: 0.8rem 2rem;
+    font-size: 1rem;
+  }
+
+  .socials {
+    bottom: 3vh;
+    left: 3vw;
+  }
+
+  .socials i {
+    font-size: 2.2rem;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .blacksection {
+    padding-top: 150px; /* Important to maintain spacing */
+    padding-bottom: 5%;
+    min-height: 100vh;
+  }
+
+  .maintitle {
+    font-size: 4rem;
+    line-height: 1.1;
+    letter-spacing: 0.1rem;
+  }
+
+  .rotwords {
+    flex-direction: column;
+  }
+
+  .rotwords div {
+    font-size: 2rem;
+  }
+
+  .custom-class {
+    font-size: 2rem;
+  }
+
+  .rotating-button {
+    width: 80%;
+    font-size: 1rem;
+    padding: 0.7rem 1rem;
+  }
+
+  .socials {
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    position: static;
+    margin-top: 2rem;
+  }
+
+  .socials i {
+    font-size: 2rem;
+    margin: 0 10px;
+  }
+}
