@@ -5,7 +5,7 @@ import aboutlogo from "./assets/iconlogo.png";
 function Homeabout() {
   return (
     <>
-      <section className="whiteabout">
+      <section id="aboutus" className="whiteabout">
         <div className="exclamation">
           <svg xmlns="http://www.w3.org/2000/svg" width="6" height="90" viewBox="0 0 6 90" fill="none">
             <path d="M3 3L3 87" stroke="black" strokeWidth="6" strokeLinecap="round" />

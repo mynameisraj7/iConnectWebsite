@@ -532,3 +532,11 @@
   }
 }
 }
+@media (max-width: 400px) {
+  .maintitle {
+    font-size: 3.5rem;
+  }
+  .rotwords{
+    margin-top: 10px;
+  }
+}

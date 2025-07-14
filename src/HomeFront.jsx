@@ -6,8 +6,25 @@
   import purplearrow from "./assets/purplearrow.png";
   import redarrow from "./assets/redarrow.png";
   import yellowarrow from "./assets/yellowarrow.png";
+  import { useLocation, useNavigate } from 'react-router-dom';
+
 
   function HomeFront() {
+    const location = useLocation();
+const navigate = useNavigate();
+
+const handleExploreClick = (e) => {
+  e.preventDefault();
+  if (location.pathname === "/") {
+    const el = document.getElementById("aboutus");
+    if (el) {
+      el.scrollIntoView({ behavior: "smooth" });
+    }
+  } else {
+    navigate("/#aboutus");
+  }
+};
+
     return (
       <>
       
@@ -36,7 +53,10 @@
             </div>
             <RotatingText texts={['IMPLEMENTATION', 'INFORMATION', 'INSIGHT', 'IDEATION','INVESTIGATION']} colors={['#FF0055', '#0099FF', '#00CC88', '#FF9900','#8428F1']} rotationInterval={2000} mainClassName="rotating-text-wrapper" splitLevelClassName="rotating-text-split" />
         </div>
-        <button className="rotating-button"><span>Explore</span></button>
+        <button className="rotating-button" onClick={handleExploreClick}>
+            <span>Explore</span>
+        </button>
+
         <div className="socials">
           <i className='bx bxl-instagram'></i>
           <i className='bx bxl-twitter'></i>

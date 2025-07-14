@@ -123,3 +123,8 @@
         width: 210px;
     }
 }
+@media (max-width:400px){
+    .header{
+    padding:10px 10px 10px 0px ;
+    }
+}
