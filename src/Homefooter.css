@@ -232,4 +232,11 @@
   width: 50px;
   font-size: 1.6rem;
 }
+.footget p {
+  white-space: nowrap;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
 }
