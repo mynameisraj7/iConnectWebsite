@@ -540,8 +540,55 @@ body {
         font-size: 0.9rem;
       }
     }
+    @media (max-width:395px){
+      .stat-box h2{
+        font-size: 2.1rem;
+      }
+      .stat-box p{
+        font-size: 0.7rem;
+      }
+    }
     @media (max-width:380px){
+        .banner::before {
+    top: -150px;
+    left: -150px;
+    width: 440px;
+    height: 250px;
+    border: 6px solid #6d6d6d;
+  }
       .about-button button{
         font-size: 1.3rem;
       }
+      .stat-box{
+        row-gap: 5px;
+      }
+     .banner {
+    padding: 1rem;
+  }
+
+  .left-section img {
+    width: 60px;
+    height: 70px;
+  }
+
+  .text h1 {
+    font-size: 1.2rem;
+  }
+
+  .stat-box h2 {
+    font-size: 1.8rem;
+  }
+
+  .stat-box p {
+    font-size: 0.65rem;
+  }
+
+  .text {
+    padding-right: 0;
+  }
+
+  .stats {
+    gap: 1.5rem;
+    margin-right: 0;
+  }
     }
