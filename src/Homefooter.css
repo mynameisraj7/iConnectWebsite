@@ -217,29 +217,19 @@
     font-style: normal;
     font-weight: 700;
   }
-  .footget input {
-    width: 100%;
-    border-radius: 10px;
-    margin-bottom: 10px;
-  }
-
-  .footget button {
-    border-radius: 10px;
-    width: 100%;
-  }
-
-  .footget input {
-    width: 100%;      
-    font-size: 1.05rem;
-  }
-
-  .footget button {
-    width: 100%;
-    font-size: 1.6rem;
-  }
-
   .footgetcom {
-    flex-direction: column;
-    gap: 10px;
-  }
+  width: 100%;
+  justify-content: center;
+}
+
+.footget input {
+  width: calc(100% - 60px); /* Leaves space for button */
+  max-width: 90%;
+  margin-bottom: 0;
+}
+
+.footget button {
+  width: 50px;
+  font-size: 1.6rem;
+}
 }
