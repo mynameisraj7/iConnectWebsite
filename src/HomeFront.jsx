@@ -24,7 +24,7 @@
                         <div className="yyellowarrow">
                             <img src={yellowarrow} alt="about section" />
                         </div>
-        <LottieFlow />
+        {/* <LottieFlow /> */}
         <ShinyText id="shine" text="We are" disabled={false} speed={3} className='custom-class' />
         <h1 className='maintitle'>
           <span>i</span>
