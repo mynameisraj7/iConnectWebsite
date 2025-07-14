@@ -8,7 +8,7 @@ function pduAboutus(){
             <section className="white-aboutus">
                  <div className="aaboutcontatiner">
                           <div className="aabout-section">
-                            <h2>ABOUT US</h2>
+                            <h2>ABOUT PDUIIC</h2>
                             <p>
                               "E-Cell IIT Bombay helps the hustling startups and young professionals via dynamic
                               workshops, thought-provoking speaker sessions, high-stakes business plan competitions,

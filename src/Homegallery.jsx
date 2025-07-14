@@ -22,7 +22,7 @@ const items = [
 
   return (
     <>
-      <section className="whitegallery">
+      <section id="gallery" className="whitegallery">
         <div className="galleryheading">GALLERY</div>
         <Masonry
           items={items}

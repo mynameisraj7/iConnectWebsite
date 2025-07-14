@@ -1,16 +1,15 @@
-.greysec {
+.whitesec {
   width: 100%;
   height: auto;
-  background: var(--Neutrals-Black-600, #F3F3F3);
   display: flex;
-  padding: 80px 5vw 60px 5vw; 
+  padding: 95px 5vw 60px 5vw; 
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
   overflow-x: hidden; 
 }
 
-.greysec h1 {
+.whitesec h1 {
   color: var(--Neutrals-Black-100, #000);
   text-align: center;
   font-family: "Helvetica";
@@ -18,55 +17,6 @@
   font-weight: 700;
   line-height: 125%;
   margin-bottom: 50px;
-}
-
-.onecardcontainer {
-  display: flex;
-  width: 100%;
-  max-width: 1118px;
-  flex-direction: column;
-  align-items: center;
-  height: 490px;
-  margin-bottom: 40px;
-  box-sizing: border-box;
-}
-
-.bigcard {
-  display: flex;
-  width: 356px;
-  height: 492px;
-  padding: 5px;
-  flex-direction: column;
-  align-items: flex-start;
-  border-radius: 24px;
-  background: linear-gradient(153deg, #000 91.54%, #8D0000 99.24%);
-  box-sizing: border-box;
-}
-
-.bigcard img {
-  width: 100%;
-  border-radius: 16px;
-  box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.12);
-  margin-bottom: 5px;
-}
-
-.bigcard h2 {
-  color: var(--Neutrals-White, #FFF);
-  font-family: "Helvetica";
-  font-size: 2rem;
-  font-weight: 700;
-  line-height: 125%;
-  margin-left: 13px;
-  margin-bottom: 5px;
-}
-
-.bigcard p {
-  color: var(--Neutrals-Black-600, #F3F3F3);
-  font-family: "Roboto";
-  font-size: 1rem;
-  font-weight: 400;
-  line-height: 150%;
-  margin-left: 15px;
 }
 
 .fourcardcontainer {
@@ -89,8 +39,30 @@
   flex-direction: column;
   align-items: flex-start;
   border-radius: 17.258px;
-  background: linear-gradient(153deg, #000 91.54%, #9C009F 99.24%);
   box-sizing: border-box;
+  padding: 4px;
+}
+
+.fourcardcontainer:nth-of-type(1) .smallcard {
+  background: linear-gradient(153deg, #000 91.54%, #937600 99.24%);
+}
+
+.fourcardcontainer:nth-of-type(2) .smallcard {
+  background: linear-gradient(153deg, #000 91.54%, #00884D 99.24%);
+}
+
+.fourcardcontainer:nth-of-type(3) .smallcard {
+  background: linear-gradient(153deg, #000 91.54%, #0064A5 99.24%);
+}
+
+.fourcardcontainer:nth-of-type(4) .smallcard {
+  background: linear-gradient(153deg, #000 91.54%, #0064A5 99.24%);
+}
+.fourcardcontainer:nth-of-type(3){
+  padding-top: 10px;
+}
+.fourcardcontainer:nth-of-type(4){
+  padding-top: 20px;
 }
 
 .smallcard img {
@@ -122,7 +94,6 @@
 
 /* Tablet */
 @media (max-width: 1300px) {
-  .onecardcontainer,
   .fourcardcontainer {
     width: 100%;
     justify-content: center;
@@ -136,7 +107,7 @@
 
 /* Mobile */
 @media (max-width: 768px) {
-  .greysec {
+  .whitesec {
     padding: 60px 30px;
   }
   .fourcardcontainer{
@@ -144,35 +115,9 @@
     margin-bottom: 0;
   }
 
-  .onecardcontainer {
-    align-items: center;
-    height: auto;
-  }
-
   .fourcardcontainer {
     flex-direction: column;
     height: auto;
-  }
-
-  .bigcard {
-    width: 270px;
-    height: 380px;
-    padding: 3px;
-    border-radius: 17.258px;
-  }
-
-  .bigcard img {
-    border-radius: 11.506px;
-    box-shadow: 0px 0px 5.753px 2.876px rgba(0, 0, 0, 0.12);
-    padding-bottom: 7px;
-  }
-
-  .bigcard h2 {
-    font-size: 1.5rem;
-  }
-
-  .bigcard p {
-    font-size: 0.8rem;
   }
 
   .smallcard {
@@ -181,16 +126,14 @@
 }
 
 @media (max-width: 480px) {
-  .greysec h1 {
+  .whitesec h1 {
     font-size: 2rem;
   }
 
-  .bigcard h2,
   .smallcard h2 {
     font-size: 1.25rem;
   }
 
-  .bigcard p,
   .smallcard p {
     font-size: 0.75rem;
   }

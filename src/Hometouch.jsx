@@ -3,7 +3,7 @@ import "./Hometouch.css";
 function Hometouch(){
     return(
         <>
-            <section className="whitetouch">
+            <section id="contact" className="whitetouch">
                 <div className="touchcontainer">
                     <div className="contcontents">
                         <h2>Get in touch</h2>

@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import lottie from "lottie-web";
-import animationData from "./Flow6.json"; // Ensure it's in the same folder
+import animationData from "./Flow 7.json";
 
 const LottieFlow = () => {
   const container = useRef(null);
@@ -20,7 +20,7 @@ const LottieFlow = () => {
   }, []);
 
   return (
-    <div
+    <div className="lottieanim"
       style={{
         position: "absolute",
         top: "50%",

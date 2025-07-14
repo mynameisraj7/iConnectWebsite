@@ -1,14 +1,14 @@
 @font-face {
   font-family: 'Helvetica';
-  src: url('/fonts/Helvetica.ttf') format('truetype');
+  src: url('/fonts/helvetica-255/Helvetica.ttf') format('truetype');
 }
 @font-face {
   font-family: 'Performa';
-  src: url('/fonts/Performa-Regular.ttf') format('truetype');
+  src: url('/fonts/Performa-Bold.ttf') format('truetype');
 }
 @font-face {
   font-family: 'LEMONMILK';
-  src: url('/public/fonts/lemon_milk/LEMONMILK-Bold.otf') format('opentype');
+  src: url('/fonts/lemon_milk/LEMONMILK-Bold.otf') format('opentype');
   font-weight: bold;
   font-style: normal;
 }

@@ -7,7 +7,7 @@
 .whitetouch {
   min-height: 100vh;
   background-color: bisque;
-  padding: 5%;
+  padding: 5% 3% 5% 3%;
   font-family: "Roboto", sans-serif;
 }
 
@@ -20,7 +20,7 @@
   display: flex;
   padding: 3%;
   gap: 20px;
-  flex-wrap: wrap; /* helps responsiveness */
+  flex-wrap: wrap; 
 }
 
 .contcontents {
@@ -224,7 +224,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 125%; /* 30px */
+    line-height: 125%; 
   }
   .endtext {
     font-size: 0.95rem;
@@ -239,6 +239,6 @@
   font-size: 0.9rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 150%; /* 21px */
+  line-height: 150%;
   }
 }

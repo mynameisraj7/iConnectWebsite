@@ -19,7 +19,7 @@ function cn(...classes) {
 const RotatingText = forwardRef((props, ref) => {
   const {
     texts,
-    colors = [], // ✅ add colors prop
+    colors = [], 
     transition = { type: "spring", damping: 25, stiffness: 300 },
     initial = { y: "100%", opacity: 0 },
     animate = { y: 0, opacity: 1 },
@@ -203,7 +203,7 @@ const RotatingText = forwardRef((props, ref) => {
                       ),
                     }}
                     className={cn("text-rotate-element", elementLevelClassName)}
-                    style={{ color: colors[currentTextIndex] || "black" }} // ✅ Apply color here
+                    style={{ color: colors[currentTextIndex] || "black" }} 
                   >
                     {char}
                   </motion.span>

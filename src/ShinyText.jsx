@@ -5,10 +5,12 @@ const ShinyText = ({ text, disabled = false, speed = 5, className = '' }) => {
 
   return (
     <div
-      className={`shiny-text ${disabled ? 'disabled' : ''} ${className}`}
+      className={`shiny-text-wrapper ${className}`}
       style={{ animationDuration }}
     >
-      {text}
+      <span className={`shiny-text ${disabled ? 'disabled' : ''}`}>
+        {text}
+      </span>
     </div>
   );
 };

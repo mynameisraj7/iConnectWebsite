@@ -1,21 +1,40 @@
-import HomeFront from "./HomeFront"
-import Navbar from "./Navbar"
-import Homeabout from "./Homeabout"
-import Homeinit from "./Homeinit"
-import Homegallery from "./Homegallery"
-import Hometouch from "./Hometouch"
-import Homefooter from "./Homefooter"
-import { Routes, Route } from 'react-router-dom';
+import { useEffect } from 'react';
+import { Routes, Route, useLocation } from 'react-router-dom';
+
+import Navbar from "./Navbar";
+import HomeFront from "./HomeFront";
+import Homeabout from "./Homeabout";
+import Homeinit from "./Homeinit";
+import Homegallery from "./Homegallery";
+import Hometouch from "./Hometouch";
+import Homefooter from "./Homefooter";
 import AboutusPage from './pages/Aboutus';
 
 function App() {
+  const location = useLocation();
+
+  useEffect(() => {
+    if (location.pathname === "/about") {
+      // Scroll to top when About page is loaded
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    } else if (location.pathname === "/" && location.hash) {
+      // Scroll to section if hash exists (e.g. /#gallery)
+      const el = document.getElementById(location.hash.replace('#', ''));
+      if (el) {
+        setTimeout(() => {
+          el.scrollIntoView({ behavior: 'smooth' });
+        }, 100); // Delay to ensure the DOM is fully rendered
+      }
+    }
+  }, [location]);
 
   return (
     <>
-   <Navbar />
+      <Navbar />
       <Routes>
-
-        <Route path="/" element={
+        <Route
+          path="/"
+          element={
             <>
               <HomeFront />
               <Homeabout />
@@ -24,13 +43,12 @@ function App() {
               <Hometouch />
               <Homefooter />
             </>
-          }/>
-
-        <Route path="/about" element={<AboutusPage />}/>
-
+          }
+        />
+        <Route path="/about" element={<AboutusPage />} />
       </Routes>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
