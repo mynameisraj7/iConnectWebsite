@@ -150,6 +150,8 @@
 }
 @media (max-width:576px){
     .esummit-toast {
+      width: 70%;
+      text-align: center;
     top: auto;
     bottom: -100px;
     right: 50%;
