@@ -73,7 +73,7 @@ const Masonry = ({
   const columns = useMedia(
     ["(min-width:1500px)", "(min-width:1000px)", "(min-width:600px)", "(min-width:400px)"],
     [5, 4, 3, 2],
-    1
+    2           //for changing the colums below 400px
   );
 
   const [containerRef, { width }] = useMeasure();
@@ -87,7 +87,7 @@ const Masonry = ({
     if (!width) return [];
 
     const colHeights = new Array(columns).fill(0);
-    const gap = 10;
+    const gap = 11;   //was 10 previously
     const columnWidth = (width - (columns - 1) * gap) / columns;
 
     return items.map((child) => {
@@ -207,14 +207,16 @@ const Masonry = ({
           onMouseEnter={(e) => handleMouseEnter(e, item)}
           onMouseLeave={(e) => handleMouseLeave(e, item)}
         >
-          <div
+          {/* <div
             className="item-img"
             style={{ backgroundImage: `url(${item.img})` }}
           >
             {colorShiftOnHover && (
               <div className="color-overlay" />
             )}
-          </div>
+          </div> */}
+          <img className="item-img" src={item.img} alt="" />
+
         </div>
       ))}
     </div>
