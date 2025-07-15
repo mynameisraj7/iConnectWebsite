@@ -12,18 +12,22 @@ function Navbar() {
     setNav(!nav);
   };
 
-  const handleScrollLink = (e, targetId) => {
-    e.preventDefault();
-    if (location.pathname === "/") {
-      const el = document.getElementById(targetId);
-      if (el) {
-        el.scrollIntoView({ behavior: 'smooth' });
-      }
-    } else {
-      window.location.href = `/#${targetId}`;
+ const handleScrollLink = (e, targetId) => {
+  e.preventDefault();
+  if (location.pathname === "/") {
+    const el = document.getElementById(targetId);
+    if (el) {
+      const offset = -100;
+      const y = el.getBoundingClientRect().top + window.pageYOffset + offset;
+
+      window.scrollTo({ top: y, behavior: 'smooth' });
     }
-    setNav(false);
-  };
+  } else {
+    window.location.href = `/#${targetId}`;
+  }
+  setNav(false);
+};
+
 
   const handleEsummitClick = (e) => {
     e.preventDefault();
