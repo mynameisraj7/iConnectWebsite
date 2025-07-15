@@ -10,19 +10,19 @@ function Hometouch(){
                         <p>You can reach us at any time</p>
                         <div className="frame1">
                             <div>Full Name</div>
-                            <input type="text" defaultValue="Toby Maguire"></input>
+                            <input type="text" placeholder="Toby Maguire"></input>
                         </div>
                         <div className="frame1">
                             <div>Contact</div>
-                            <input type="text" defaultValue="+91 9456352756"></input>
+                            <input type="text" placeholder="+91 9456352756"></input>
                         </div>
                         <div className="frame1">
                             <div>Email</div>
-                            <input type="text" defaultValue="some@example.com"></input>
+                            <input type="text" placeholder="some@example.com"></input>
                         </div>
                         <div className="frame2">
                             <div>How can we help you?</div>
-                            <textarea type="text" defaultValue="Rohit singh"></textarea>
+                            <textarea type="text" placeholder="Rohit singh"></textarea>
                         </div>
                         <button className="contbutton">Submit</button>
                         <h3>Contact Us</h3>

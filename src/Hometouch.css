@@ -69,9 +69,14 @@
   height: 45px;
   border-radius: 10px;
   border: 1.5px solid rgb(202, 202, 202);
-  color: rgb(202, 202, 202);
+  color: rgb(121, 121, 121);
   font-size: 1rem;
   padding-left: 15px;
+}
+input::placeholder,
+textarea::placeholder {
+  color: rgb(202, 202, 202); /* or any lighter shade */
+  font-weight: 400;
 }
 
 .frame2 {
