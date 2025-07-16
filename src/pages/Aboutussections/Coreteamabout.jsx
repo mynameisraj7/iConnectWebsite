@@ -62,7 +62,7 @@ function Coreteamabout(){
                          <div className="smallcard">
                             <img src={akanshi} alt="about section" />
                             <h2>Akanshi Chhillar</h2>
-                            <p>Hospatility&Volunteering Coordinator</p>
+                            <p>Hospatility & Volunteering Coordinator</p>
                          </div>
                          <div className="smallcard">
                             <img src={tushar} alt="about section" />
