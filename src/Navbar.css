@@ -88,7 +88,7 @@
 }
 
 
-@media (max-width:969px) {
+@media (max-width:1027px) {
     #navlinks{
         display: flex;
         flex-direction: column;
@@ -148,6 +148,12 @@
         font-size: 2.2rem;
     }
 }
+@media (max-width:600px){
+  .logo img{
+    height: 60px;
+    width: 167px;
+  }
+}
 @media (max-width:576px){
     .esummit-toast {
       width: 70%;
@@ -185,9 +191,13 @@
     #navlinks{
         width: 210px;
     }
+    .logo img{
+      height: 55px;
+      width: 140px;
+    }
 }
 @media (max-width:400px){
     .header{
-    padding:10px 10px 10px 0px ;
+    padding:10px 10px 10px 11px ;
     }
 }

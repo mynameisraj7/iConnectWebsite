@@ -1,6 +1,7 @@
 import "./Homeabout.css";
 import aboutimage from "./assets/aboutimg.png";
 import aboutlogo from "./assets/iconlogo.png";
+import { Link } from 'react-router-dom';
 
 function Homeabout() {
   return (
@@ -19,12 +20,9 @@ function Homeabout() {
           <div className="about-section">
             <h2>ABOUT US</h2>
             <p>
-              "E-Cell IIT Bombay helps the hustling startups and young professionals via dynamic
-              workshops, thought-provoking speaker sessions, high-stakes business plan competitions,
-              and numerous other game-changing initiatives throughout the year to create a crucible for
-              innovation. We stand as pillars of support for budding entrepreneurs, providing them with
-              personalized guidance from experienced mentors, crucial funding opportunities, and a
-              robust network that can change the course of their journey forever!"
+              Team iConnect is the student organization located at the Pandit Deendayal Upadhyay Innovatin & Incubation Center(PDUIIC) at GJUS&T in Hisar. We are a passionate and proactive team dedicated to bridging the gap between students and the tech-driven world. Our mission is to foster a culture of innovation, collaboration and leadership through hands-on events, workshops, and national-level competitions.
+              Iconnect is run by a well-defined administrative team, an influential advisory panel, and a mentoring system.
+              With a strong focus on building 21st-century skills, we provide platforms for students to ideate, showcase, and scale their talents.
             </p>
           </div>
 
@@ -34,7 +32,7 @@ function Homeabout() {
           </div>
 
           <div className="about-button">
-            <button><span>Know more about us</span></button>
+                <Link to="/about" style={{ width: "100%" }}><button><span>Know more about us</span></button></Link>
           </div>
         </div>
 

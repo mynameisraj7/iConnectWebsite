@@ -40,6 +40,8 @@
 }
 
 .initcard {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   max-width: 370px;
   min-height: 450px;
@@ -52,7 +54,16 @@
 }
 
 .initimgcont{
-  margin: -10px -10px 0 -10px;
+  margin: 2px 0px 0px -2px;
+  width: 101%;
+  height: auto;
+  overflow: hidden;
+}
+.initimgcont img {
+  width: 100%;
+  height: auto;
+  object-fit: cover; /* or "contain" if you want the full image inside */
+  border-radius: 18px;
 }
 
 .initcard h2 {
@@ -88,6 +99,7 @@
   text-decoration-thickness: 7%; 
   text-underline-offset: 24.5%; 
   cursor: pointer;
+  margin-top: auto;
 }
 
 .leftcont div:nth-child(1) {

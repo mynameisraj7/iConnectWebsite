@@ -21,11 +21,11 @@ function Homefooter() {
 
           <div className="footfollow">
             <h2>Follow Us</h2>
-            <a href="#">LinkedIn</a>
-            <a href="#">Instagram</a>
-            <a href="#">X (Twitter)</a>
-            <a href="#">Facebook</a>
-            <a href="#">YouTube</a>
+            <a href="https://www.linkedin.com/company/iconnect-gjust/">LinkedIn</a>
+            <a href="https://www.instagram.com/iconnectgjust/">Instagram</a>
+            <a href="https://x.com/iconnectgjust?t=GZGkd_h65aoTtg3M5MnmCg&s=08">X (Twitter)</a>
+            <a href="https://www.whatsapp.com/channel/0029VaELUPEGU3BNfgEAmU0h">Whatsapp</a>
+            <a href="https://www.youtube.com/@iConnectGJUST">YouTube</a>
           </div>
 
           <div className="footget">

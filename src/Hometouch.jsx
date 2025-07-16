@@ -10,7 +10,7 @@ function Hometouch(){
                         <p>You can reach us at any time</p>
                         <div className="frame1">
                             <div>Full Name</div>
-                            <input type="text" placeholder="Toby Maguire"></input>
+                            <input type="text" placeholder="Aditya Thakur"></input>
                         </div>
                         <div className="frame1">
                             <div>Contact</div>

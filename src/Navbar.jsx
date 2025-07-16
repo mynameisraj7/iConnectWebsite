@@ -50,12 +50,13 @@ function Navbar() {
       <div className='header'>
         <div className='logo'>
           <Link to="/" onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-            <img src={navimage} alt="iConnect Logo" height="83px" width="209.596px" />
+            <img src={navimage} alt="iConnect Logo" height="68px" width="180px" />
           </Link>
         </div>
 
         <div id='navlinks' className={`navlinks ${nav ? 'mobile-active' : ''}`}>
           <ul id="navbar">
+            <li><Link to="/" onClick={(e) => { e.preventDefault();if (location.pathname === "/") {window.scrollTo({ top: 0, behavior: "smooth" });} else {window.location.href = "/";}setNav(false);}}>Home</Link></li>
             <li><Link to="/about" onClick={pressClick}>About Us</Link></li>
             <li><a href="#initiative" onClick={(e) => handleScrollLink(e, "initiative")}>Our Initiative</a></li>
             <li><a href="#gallery" onClick={(e) => handleScrollLink(e, "gallery")}>Gallery</a></li>

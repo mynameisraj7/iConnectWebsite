@@ -1,5 +1,9 @@
 import "./Homeinit.css";
-import esummit from "./assets/esummit.png";
+import esummit from "./assets/Esummit.jpg";
+import fest from "./assets/KonarkTechfest.jpg";
+import learn from "./assets/LearnersClub.jpg";
+import pitch from "./assets/PitchPoint.jpg";
+import sih from "./assets/SIH.jpg";
 
 function Homeinit(){
     return(
@@ -10,7 +14,7 @@ function Homeinit(){
                     <div className="leftcont">
                         <div className="initcard">
                             <article className="initimgcont">
-                                <img src={esummit} alt="about section" style={{width:'100%',height:'100%'}}/>
+                                <img src={fest} alt="about section"/>
                             </article>
                             <h2>Konark TechFest</h2>
                             <p>Our flagship tech fest, celebrating creativity, coding, and cutting-edge technology with workshops, hackathons, and competitions.</p>
@@ -18,7 +22,7 @@ function Homeinit(){
                         </div>
                         <div className="initcard">
                             <article className="initimgcont">
-                                <img src={esummit} alt="about section" style={{width:'100%',height:'100%'}}/>
+                                <img src={esummit} alt="about section" />
                             </article>
                             <h2>E-Summit</h2>
                             <p>A grand entrepreneurship summit featuring keynote speakers, startup founders, panel discussions, and idea showcases.</p>
@@ -28,7 +32,7 @@ function Homeinit(){
                     <div className="middlecont">
                             <div className="initcard">
                                 <article className="initimgcont">
-                                    <img src={esummit} alt="about section" style={{width:'100%',height:'100%'}}/>
+                                    <img src={pitch} alt="about section" />
                                 </article>
                                 <h2>Pitch Point</h2>
                                 <p>A high-energy pitch competition where young innovators and aspiring entrepreneurs present their startup ideas to real investors and mentors.</p>
@@ -38,7 +42,7 @@ function Homeinit(){
                     <div className="rightcont">
                         <div className="initcard">
                              <article className="initimgcont">
-                                <img src={esummit} alt="about section" style={{width:'100%',height:'100%'}}/>
+                                <img src={learn} alt="about section" />
                             </article>
                             <h2>IConnect Learners</h2>
                             <p>A continuous learning initiative focused on student upskilling via training sessions, technical talks, and hands-on workshops.</p>
@@ -46,7 +50,7 @@ function Homeinit(){
                         </div>
                         <div className="initcard">
                              <article className="initimgcont">
-                                <img src={esummit} alt="about section" style={{width:'100%',height:'100%'}}/>
+                                <img src={sih} alt="about section" />
                             </article>
                             <h2>Samrt India Hackathon(SIH)</h2>
                             <p>A national-level hackathon where our team not only competes but also organizes internal hackathons and mentorship drives.</p>
