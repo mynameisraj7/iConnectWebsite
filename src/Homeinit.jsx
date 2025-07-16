@@ -13,15 +13,15 @@ function Homeinit(){
                                 <img src={esummit} alt="about section" style={{width:'100%',height:'100%'}}/>
                             </article>
                             <h2>Konark TechFest</h2>
-                            <p>Pizza ipsum dolor meat lovers buffalo. Mouth fresh beef lot pineapple bell. Pepperoni Philly onions pan peppers rib thin pork burnt olives. Tomatoes tomatoes sautéed rib Hawaiian. Sauce red dolor green melted. Buffalo bacon.</p>
+                            <p>Our flagship tech fest, celebrating creativity, coding, and cutting-edge technology with workshops, hackathons, and competitions.</p>
                             <div>Learn more</div>
                         </div>
                         <div className="initcard">
                             <article className="initimgcont">
                                 <img src={esummit} alt="about section" style={{width:'100%',height:'100%'}}/>
                             </article>
-                            <h2>Konark TechFest</h2>
-                            <p>Pizza ipsum dolor meat lovers buffalo. Mouth fresh beef lot pineapple bell. Pepperoni Philly onions pan peppers rib thin pork burnt olives. Tomatoes tomatoes sautéed rib Hawaiian. Sauce red dolor green melted. Buffalo bacon.</p>
+                            <h2>E-Summit</h2>
+                            <p>A grand entrepreneurship summit featuring keynote speakers, startup founders, panel discussions, and idea showcases.</p>
                             <div>Learn more</div>
                         </div>
                     </div>
@@ -30,8 +30,8 @@ function Homeinit(){
                                 <article className="initimgcont">
                                     <img src={esummit} alt="about section" style={{width:'100%',height:'100%'}}/>
                                 </article>
-                                <h2>Konark TechFest</h2>
-                                <p>Pizza ipsum dolor meat lovers buffalo. Mouth fresh beef lot pineapple bell. Pepperoni Philly onions pan peppers rib thin pork burnt olives. Tomatoes tomatoes sautéed rib Hawaiian. Sauce red dolor green melted. Buffalo bacon.</p>
+                                <h2>Pitch Point</h2>
+                                <p>A high-energy pitch competition where young innovators and aspiring entrepreneurs present their startup ideas to real investors and mentors.</p>
                                 <div>Learn more</div>
                             </div>
                     </div>
@@ -40,16 +40,16 @@ function Homeinit(){
                              <article className="initimgcont">
                                 <img src={esummit} alt="about section" style={{width:'100%',height:'100%'}}/>
                             </article>
-                            <h2>Konark TechFest</h2>
-                            <p>Pizza ipsum dolor meat lovers buffalo. Mouth fresh beef lot pineapple bell. Pepperoni Philly onions pan peppers rib thin pork burnt olives. Tomatoes tomatoes sautéed rib Hawaiian. Sauce red dolor green melted. Buffalo bacon.</p>
+                            <h2>IConnect Learners</h2>
+                            <p>A continuous learning initiative focused on student upskilling via training sessions, technical talks, and hands-on workshops.</p>
                             <div>Learn more</div>
                         </div>
                         <div className="initcard">
                              <article className="initimgcont">
                                 <img src={esummit} alt="about section" style={{width:'100%',height:'100%'}}/>
                             </article>
-                            <h2>Konark TechFest</h2>
-                            <p>Pizza ipsum dolor meat lovers buffalo. Mouth fresh beef lot pineapple bell. Pepperoni Philly onions pan peppers rib thin pork burnt olives. Tomatoes tomatoes sautéed rib Hawaiian. Sauce red dolor green melted. Buffalo bacon.</p>
+                            <h2>Samrt India Hackathon(SIH)</h2>
+                            <p>A national-level hackathon where our team not only competes but also organizes internal hackathons and mentorship drives.</p>
                             <div>Learn more</div>
                         </div>
                     </div>

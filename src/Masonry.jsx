@@ -207,15 +207,15 @@ const Masonry = ({
           onMouseEnter={(e) => handleMouseEnter(e, item)}
           onMouseLeave={(e) => handleMouseLeave(e, item)}
         >
-          {/* <div
+          <div
             className="item-img"
             style={{ backgroundImage: `url(${item.img})` }}
           >
             {colorShiftOnHover && (
               <div className="color-overlay" />
             )}
-          </div> */}
-          <img className="item-img" src={item.img} alt="" />
+          </div>
+          {/* <img className="item-img" src={item.img} alt="" /> */}
 
         </div>
       ))}

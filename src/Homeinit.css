@@ -169,13 +169,13 @@
 @media (max-width: 576px) {
   .initheading {
     font-family: "Helvetica";
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-style: normal;
     line-height: 125%;
     font-weight: 700;
     margin-left: 0;
     margin-top: 35px;
-    margin-bottom: 10px;
+    margin-bottom: 25px;
   }
 
   .initcard {
@@ -228,6 +228,6 @@ text-underline-offset: 24.5%;
 }
 @media (max-width: 576px) {
   .initheading {
-    margin-bottom: 25px;
+    font-size: 2.4rem;
   }
 }

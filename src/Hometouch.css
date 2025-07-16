@@ -13,7 +13,7 @@
 
 .touchcontainer {
   background-color: white;
-  border-radius: 30px;
+  border-radius: 36px;
   width: 100%;
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
   margin-top: 20px;
@@ -201,9 +201,6 @@ textarea::placeholder {
 }
 
 @media (max-width: 576px) {
-  .contcontents h2 {
-    font-size: 2rem;
-  }
 
   .contbutton {
     font-size: 1.2rem;
