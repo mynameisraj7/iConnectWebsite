@@ -10,12 +10,9 @@ function pduAboutus(){
                           <div className="aabout-section">
                             <h2>ABOUT PDUIIC</h2>
                             <p>
-                              "E-Cell IIT Bombay helps the hustling startups and young professionals via dynamic
-                              workshops, thought-provoking speaker sessions, high-stakes business plan competitions,
-                              and numerous other game-changing initiatives throughout the year to create a crucible for
-                              innovation. We stand as pillars of support for budding entrepreneurs, providing them with
-                              personalized guidance from experienced mentors, crucial funding opportunities, and a
-                              robust network that can change the course of their journey forever!"
+                              Team iConnect is the student organization located at the Pandit Deendayal Upadhyay Innovatin & Incubation Center(PDUIIC) at GJUS&T in Hisar. We are a passionate and proactive team dedicated to bridging the gap between students and the tech-driven world. Our mission is to foster a culture of innovation, collaboration and leadership through hands-on events, workshops, and national-level competitions.
+                              Iconnect is run by a well-defined administrative team, an influential advisory panel, and a mentoring system.
+                              With a strong focus on building 21st-century skills, we provide platforms for students to ideate, showcase, and scale their talents—whether it’s through entrepreneurship, problem-solving, public speaking, or tech innovation.
                             </p>
                           </div>
                 
@@ -31,12 +28,10 @@ function pduAboutus(){
                     <div className="visioncontent">
                         <h2>Vision</h2>
                         <p>
-                              "E-Cell IIT Bombay helps the hustling startups and young professionals via dynamic
-                              workshops, thought-provoking speaker sessions, high-stakes business plan competitions,
-                              and numerous other game-changing initiatives throughout the year to create a crucible for
-                              innovation. We stand as pillars of support for budding entrepreneurs, providing them with
-                              personalized guidance from experienced mentors, crucial funding opportunities, and a
-                              robust network that can change the course of their journey forever!"
+                             Spark innovation and foster collaboration among students.Organize and showcase a vibrant array of Techno-visional events.Cultivate an ecosystem for student empowerment, and promote skill development.Diverse talents converge, and ideas flourish, actively shaping positive change.	Innovation First: We believe in creating and adopting new ideas fearlessly.
+                              Student-Led, Impact-Driven: Every initiative is run by students, for students.
+                              Collaboration Over Competition: We grow together by helping each other learn and succeed.
+                              Inclusion & Empowerment: We give every student a chance to voice their ideas and lead.
                         </p>
                     </div>
                 
