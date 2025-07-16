@@ -28,10 +28,10 @@ function pduAboutus(){
                     <div className="visioncontent">
                         <h2>Vision</h2>
                         <p>
-                             Spark innovation and foster collaboration among students.Organize and showcase a vibrant array of Techno-visional events.Cultivate an ecosystem for student empowerment, and promote skill development.Diverse talents converge, and ideas flourish, actively shaping positive change.	Innovation First: We believe in creating and adopting new ideas fearlessly.
-                              Student-Led, Impact-Driven: Every initiative is run by students, for students.
-                              Collaboration Over Competition: We grow together by helping each other learn and succeed.
-                              Inclusion & Empowerment: We give every student a chance to voice their ideas and lead.
+                          1.	Spark innovation and foster collaboration among students.<br/>
+                          2.	Organize and showcase a vibrant array of Techno-visional events.<br/>
+                          3.	Cultivate an ecosystem for student empowerment, and promote skill development.<br/>
+                          4.	Diverse talents converge, and ideas flourish, actively shaping positive change.<br/>
                         </p>
                     </div>
                 

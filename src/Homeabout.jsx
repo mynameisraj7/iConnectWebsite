@@ -1,5 +1,6 @@
 import "./Homeabout.css";
 import aboutimage from "./assets/aboutimg.png";
+import leftlogo from "./assets/iconnectlogo.png";
 import aboutlogo from "./assets/iconlogo.png";
 import { Link } from 'react-router-dom';
 
@@ -38,14 +39,14 @@ function Homeabout() {
 
         <div className="banner">
           <div className="left-section">
-            <img src={aboutlogo} alt="logo" />
-            <div className="text">
+            <img src={leftlogo} alt="logo" />
+            {/* <div className="text">
               <h1>iConnect</h1>
               <p>
                 <span class="team-text">Team</span>
                 <span class="pduiic-text"> PDUIIC</span>
               </p>
-            </div>
+            </div> */}
           </div>
           <div className="stats">
             <div className="stat-box">

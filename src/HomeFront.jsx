@@ -58,11 +58,11 @@ const handleExploreClick = (e) => {
         </button>
 
         <div className="socials">
-          <i className='bx bxl-instagram'></i>
-          <i className='bx bxl-twitter'></i>
-          <i className='bx bxl-whatsapp' ></i>
-          <i className='bx bxl-linkedin' ></i>
-          <i className='bx bxl-facebook-square' ></i>
+          <a href="https://www.instagram.com/iconnectgjust/"><i className='bx bxl-instagram'></i></a>
+          <a href="https://x.com/iconnectgjust?t=GZGkd_h65aoTtg3M5MnmCg&s=08"><i className='bx bxl-twitter'></i></a>
+          <a href="https://www.whatsapp.com/channel/0029VaELUPEGU3BNfgEAmU0h"><i className='bx bxl-whatsapp' ></i></a>
+          <a href="https://www.linkedin.com/company/iconnect-gjust/"><i className='bx bxl-linkedin' ></i></a>
+          <a href="https://www.youtube.com/@iConnectGJUST"><i class='bx bxl-youtube' ></i></a>
         </div>
         <div className="scroll">Scroll Down<i className='bx bx-right-arrow-alt'></i></div>
     </section>
