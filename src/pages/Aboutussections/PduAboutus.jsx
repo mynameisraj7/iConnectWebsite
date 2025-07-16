@@ -8,7 +8,7 @@ function pduAboutus(){
             <section className="white-aboutus">
                  <div className="aaboutcontatiner">
                           <div className="aabout-section">
-                            <h2>ABOUT PDUIIC</h2>
+                            <h2>ABOUT IConnect</h2>
                             <p>
                               Team iConnect is the student organization located at the Pandit Deendayal Upadhyay Innovatin & Incubation Center(PDUIIC) at GJUS&T in Hisar. We are a passionate and proactive team dedicated to bridging the gap between students and the tech-driven world. Our mission is to foster a culture of innovation, collaboration and leadership through hands-on events, workshops, and national-level competitions.
                               Iconnect is run by a well-defined administrative team, an influential advisory panel, and a mentoring system.
@@ -26,12 +26,12 @@ function pduAboutus(){
                         <img src={visionlogo} alt="footer image" />
                     </div>
                     <div className="visioncontent">
-                        <h2>Vision</h2>
-                        <p>
-                          1.	Spark innovation and foster collaboration among students.<br/>
-                          2.	Organize and showcase a vibrant array of Techno-visional events.<br/>
-                          3.	Cultivate an ecosystem for student empowerment, and promote skill development.<br/>
-                          4.	Diverse talents converge, and ideas flourish, actively shaping positive change.<br/>
+                        <h2>Our Mission</h2>
+                        <p>To cultivate an environment of creativity, inclusivity, and teamwork by connecting students from diverse disciplines.
+                           To provide mentorship, resources, and guidance for the development of innovative ideas and entrepreneurial ventures.
+                           To enhance students’ technical, managerial, and interpersonal skills through organized events, workshops, and collaborative projects.
+                           To contribute to the academic and professional excellence of its members while aligning with the broader objectives of PDUIIC and GJUS&T.
+                           To build a network of innovators and leaders committed to societal betterment and sustainable innovation.
                         </p>
                     </div>
                 

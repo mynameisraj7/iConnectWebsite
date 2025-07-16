@@ -6,12 +6,12 @@ import crictech from "../../assets/crictech.jpg";
 import vansh from "../../assets/vansh.jpg";
 import anil from "../../assets/anil.png";
 import sneha from "../../assets/sneha.jpeg";
-import naina2 from "../../assets/naina2.jpeg";
+import naina from "../../assets/naina.jpeg";
 import naveen from "../../assets/nakay.png";
 import payal from "../../assets/payal.jpg";
 import krish from "../../assets/krish.png";
 import tushar from "../../assets/tushar.JPG";
-import akanshi from "../../assets/akanshi.jpg";
+import akanshi from "../../assets/akanshi.jpeg";
 import aditya from "../../assets/aditya.jpg";
 
 function Coreteamabout(){
@@ -38,7 +38,7 @@ function Coreteamabout(){
                             <p>Documentation Head</p>
                          </div>
                          <div className="smallcard">
-                            <img src={naina2} alt="about section" />
+                            <img src={naina} alt="about section" />
                             <h2>Naina Bansal</h2>
                             <p>Industrial Connect Head</p>
                          </div>
