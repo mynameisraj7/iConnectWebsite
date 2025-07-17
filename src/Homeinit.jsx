@@ -4,10 +4,26 @@ import fest from "./assets/KonarkTechfest.jpg";
 import learn from "./assets/LearnersClub.jpg";
 import pitch from "./assets/PitchPoint.jpg";
 import sih from "./assets/SIH.jpg";
+import { useState, useEffect } from "react";
 
 function Homeinit(){
+    const [showEsummitMessage, setShowEsummitMessage] = useState(false);
+
+    const handleEsummitClick = (e) => {
+    e.preventDefault();
+    setShowEsummitMessage(true);
+    setTimeout(() => {
+      setShowEsummitMessage(false);
+    }, 2500);
+    setNav(false);
+  };
+
     return(
         <>
+
+        {/* Sliding message */}
+      {showEsummitMessage && <div className="esummit-toast">🚧 Esummit Coming Soon</div>}
+
             <section id="initiative" className="blacksec">
                 <div className="initheading">OUR INITIATIVES</div>
                 <div className="cardcontainer">
@@ -18,7 +34,7 @@ function Homeinit(){
                             </article>
                             <h2>Konark TechFest</h2>
                             <p>Our flagship tech fest, celebrating creativity, coding, and cutting-edge technology with workshops, hackathons, and competitions.</p>
-                            <div>Learn more</div>
+                            <div onClick={handleEsummitClick}>Learn more</div>
                         </div>
                         <div className="initcard">
                             <article className="initimgcont">
@@ -26,7 +42,7 @@ function Homeinit(){
                             </article>
                             <h2>E-Summit</h2>
                             <p>A grand entrepreneurship summit featuring keynote speakers, startup founders, panel discussions, and idea showcases.</p>
-                            <div>Learn more</div>
+                            <div onClick={handleEsummitClick}>Learn more</div>
                         </div>
                     </div>
                     <div className="middlecont">
@@ -36,7 +52,7 @@ function Homeinit(){
                                 </article>
                                 <h2>Pitch Point</h2>
                                 <p>A high-energy pitch competition where young innovators and aspiring entrepreneurs present their startup ideas to real investors and mentors.</p>
-                                <div>Learn more</div>
+                                <div onClick={handleEsummitClick}>Learn more</div>
                             </div>
                     </div>
                     <div className="rightcont">
@@ -46,7 +62,7 @@ function Homeinit(){
                             </article>
                             <h2>IConnect Learners</h2>
                             <p>A continuous learning initiative focused on student upskilling via training sessions, technical talks, and hands-on workshops.</p>
-                            <div>Learn more</div>
+                            <div onClick={handleEsummitClick}>Learn more</div>
                         </div>
                         <div className="initcard">
                              <article className="initimgcont">
@@ -54,7 +70,7 @@ function Homeinit(){
                             </article>
                             <h2>Samrt India Hackathon(SIH)</h2>
                             <p>A national-level hackathon where our team not only competes but also organizes internal hackathons and mentorship drives.</p>
-                            <div>Learn more</div>
+                            <div onClick={handleEsummitClick}>Learn more</div>
                         </div>
                     </div>
                 </div>

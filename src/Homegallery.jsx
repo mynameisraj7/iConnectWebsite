@@ -6,7 +6,7 @@ import gallery4 from "./assets/Gallery4.jpg";
 import gallery5 from "./assets/Gallery5.JPG";
 import gallery7 from "./assets/Gallery7.jpg";
 import gallery9 from "./assets/Gallery9.jpeg";
-import gallery10 from "./assets/Gallery10.jpg";
+import gallery20 from "./assets/Gallery20.jpg";
 import gallery11 from "./assets/Gallery11.jpg";
 import gallery81 from "./assets/Gallery81.jpg";
 import gallery16 from "./assets/Gallery16.JPG";
@@ -21,7 +21,7 @@ const items = [
   { id: "5", img: gallery7, url: "#", height: 350 },
   { id: "6", img: gallery5, url: "#", height: 310 },
   { id: "7", img: gallery11, url: "#", height: 550 },
-  { id: "8", img: gallery10, url: "#", height: 685 },
+  { id: "8", img: gallery20, url: "#", height: 680 },
   { id: "9", img: gallery81, url: "#", height: 630 },
   { id: "10", img: gallery2, url: "#", height:570 },
   { id: "11", img: gallery4, url: "#", height: 330 },
