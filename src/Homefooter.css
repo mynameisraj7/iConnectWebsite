@@ -38,6 +38,8 @@
   flex-direction: column;
   width: 20%;
   margin-top: 65px;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
 }
 
 .footsociety h2,

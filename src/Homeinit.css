@@ -101,7 +101,7 @@
   cursor: pointer;
   margin-top: auto;
   margin-bottom: 6px;
-   user-select: none;
+  user-select: none;
   -webkit-tap-highlight-color: transparent;
 }
 .initcard div:hover {
