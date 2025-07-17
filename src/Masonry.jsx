@@ -207,7 +207,7 @@ const Masonry = ({
           onMouseEnter={(e) => handleMouseEnter(e, item)}
           onMouseLeave={(e) => handleMouseLeave(e, item)}
         >
-          <div
+          {/* <div
             className="item-img"
             style={{ backgroundImage: `url(${item.img})` }}
             onClick={(e) => e.stopPropagation()} //onclick stops the page from reloading
@@ -215,8 +215,8 @@ const Masonry = ({
             {colorShiftOnHover && (
               <div className="color-overlay" />
             )}
-          </div>
-          {/* <img className="item-img" src={item.img} alt="" /> */}
+          </div> */}
+          <img className="item-img" src={item.img} alt="" loading="lazy" width={item.w} height={item.h} onClick={(e) => e.stopPropagation()}/>
 
         </div>
       ))}

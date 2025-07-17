@@ -12,24 +12,24 @@ function Manageaboutus(){
             <h1>Management team</h1>
             <div className="onecardcontainer">
                     <div className="bigcard">
-                        <img src={vishalgulati} alt="about section" />
+                        <img src={vishalgulati} alt="about section" loading="lazy"/>
                         <h2>Vishal Gulati</h2>
                         <p>Director PDUIIC</p>
                     </div>
             </div>
             <div className="fourcardcontainer">
                  <div className="smallcard">
-                    <img src={sureshkumar} alt="about section" />
+                    <img src={sureshkumar} alt="about section" loading="lazy"/>
                     <h2>Suresh Kumar</h2>
                     <p>Deputy Director Management Team</p>
                  </div>
                  <div className="smallcard">
-                    <img src={munishgupta} alt="about section" />
+                    <img src={munishgupta} alt="about section" loading="lazy"/>
                     <h2>Munish Gupta</h2>
                     <p>Deputy Director Management Team</p>
                  </div>
                  <div className="smallcard">
-                    <img src={sumitsaroha} alt="about section" />
+                    <img src={sumitsaroha} alt="about section" loading="lazy"/>
                     <h2>Sumit Saroha</h2>
                     <p>Deputy Director Management Team</p>
                  </div>

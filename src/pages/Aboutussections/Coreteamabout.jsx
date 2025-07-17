@@ -21,78 +21,78 @@ function Coreteamabout(){
                     <h1>Core team</h1>
                     <div className="fourcardcontainer">
                          <div className="smallcard">
-                            <img src={sarika} alt="about section" />
+                            <img src={sarika} alt="about section" loading="lazy"/>
                             <h2>Sarika Kalkal</h2>
                             <p>Captain</p>
                          </div>
                          <div className="smallcard">
-                            <img src={vipin} alt="about section" />
+                            <img src={vipin} alt="about section" loading="lazy"/>
                             <h2>Vipin</h2>
                             <p>Captain</p>
                          </div>
                     </div>
                     <div className="fourcardcontainer">
                          <div className="smallcard">
-                            <img src={rohit} alt="about section" />
+                            <img src={rohit} alt="about section" loading="lazy"/>
                             <h2>Rohit Tiwari</h2>
                             <p>Documentation Head</p>
                          </div>
                          <div className="smallcard">
-                            <img src={naina} alt="about section" />
+                            <img src={naina} alt="about section" loading="lazy"/>
                             <h2>Naina Bansal</h2>
                             <p>Industrial Connect Head</p>
                          </div>
                          <div className="smallcard">
-                            <img src={vansh} alt="about section" />
+                            <img src={vansh} alt="about section" loading="lazy"/>
                             <h2>Vansh</h2>
                             <p>Promotion Head</p>
                          </div>
                          <div className="smallcard">
-                            <img src={yuvansh} alt="about section" />
+                            <img src={yuvansh} alt="about section" loading="lazy"/>
                             <h2>Yuvansh Anjna</h2>
                             <p>HR Head</p>
                          </div>
                     </div>
                     <div className="fourcardcontainer">
                          <div className="smallcard">
-                            <img src={aditya} alt="about section" />
+                            <img src={aditya} alt="about section" loading="lazy"/>
                             <h2>Aditya Thakur</h2>
                             <p>Website Coordinator</p>
                          </div>
                          <div className="smallcard">
-                            <img src={akanshi} alt="about section" />
+                            <img src={akanshi} alt="about section" loading="lazy"/>
                             <h2>Akanshi Chhillar</h2>
                             <p>Hospatility & Volunteering Coordinator</p>
                          </div>
                          <div className="smallcard">
-                            <img src={tushar} alt="about section" />
+                            <img src={tushar} alt="about section" loading="lazy"/>
                             <h2>Tushar Sharma</h2>
                             <p>Logistics & Sponsorship Coordinator</p>
                          </div>
                          <div className="smallcard">
-                            <img src={payal} alt="about section" />
+                            <img src={payal} alt="about section" loading="lazy"/>
                             <h2>Payal Bhyan</h2>
                             <p>Data Management Coordinator</p>
                          </div>
                     </div>
                     <div className="fourcardcontainer">
                          <div className="smallcard">
-                            <img src={naveen} alt="about section" />
+                            <img src={naveen} alt="about section" loading="lazy"/>
                             <h2>Naveen</h2>
                             <p>Infographic Coordinator</p>
                          </div>
                          <div className="smallcard">
-                            <img src={sneha} alt="about section" />
+                            <img src={sneha} alt="about section" loading="lazy"/>
                             <h2>Sneha Singh</h2>
                             <p>Content Writer Coordinator</p>
                          </div>
                          <div className="smallcard">
-                            <img src={krish} alt="about section" />
+                            <img src={krish} alt="about section" loading="lazy"/>
                             <h2>Krish</h2>
                             <p>Media Coordinator</p>
                          </div>
                          <div className="smallcard">
-                            <img src={bigcardimage} alt="about section" />
+                            <img src={bigcardimage} alt="about section" loading="lazy"/>
                             <h2>Someone Sharma</h2>
                             <p>Some Position</p>
                          </div>

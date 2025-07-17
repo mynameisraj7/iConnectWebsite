@@ -25,8 +25,6 @@ const items = [
   { id: "9", img: gallery81, url: "#", height: 630 },
   { id: "10", img: gallery2, url: "#", height:570 },
   { id: "11", img: gallery4, url: "#", height: 330 },
-  // { id: "12", img: photo1, url: "#", height: 290 },
-  // { id: "13", img: gallery10, url: "#", height: 190 },
 ];
 
 
