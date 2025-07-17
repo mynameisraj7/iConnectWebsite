@@ -4,7 +4,7 @@ import fest from "./assets/KonarkTechfest.jpg";
 import learn from "./assets/LearnersClub.jpg";
 import pitch from "./assets/PitchPoint.jpg";
 import sih from "./assets/SIH.jpg";
-import { useState, useEffect } from "react";
+import { useState} from "react";
 
 function Homeinit(){
     const [showEsummitMessage, setShowEsummitMessage] = useState(false);
@@ -22,7 +22,7 @@ function Homeinit(){
         <>
 
         {/* Sliding message */}
-      {showEsummitMessage && <div className="esummit-toast">🚧 Esummit Coming Soon</div>}
+      {showEsummitMessage && <div className="esummit-toast">🚧 Coming Soon</div>}
 
             <section id="initiative" className="blacksec">
                 <div className="initheading">OUR INITIATIVES</div>
