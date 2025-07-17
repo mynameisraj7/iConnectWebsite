@@ -4,7 +4,7 @@ import gallery2 from "./assets/Gallery2.JPG";
 import gallery3 from "./assets/Gallery3.jpeg";
 import gallery4 from "./assets/Gallery4.jpg";
 import gallery5 from "./assets/Gallery5.JPG";
-import gallery7 from "./assets/Gallery7.JPG";
+import gallery7 from "./assets/Gallery7.jpg";
 import gallery9 from "./assets/Gallery9.jpeg";
 import gallery10 from "./assets/Gallery10.jpg";
 import gallery11 from "./assets/Gallery11.jpg";
