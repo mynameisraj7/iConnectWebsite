@@ -1,16 +1,16 @@
 import "./Coreteamabout.css";
 import bigcardimage from "../../assets/bigcard.png";
-import sarika from "../../assets/sarika.png";
-import vipin from "../../assets/vipin.jpg";
-import crictech from "../../assets/crictech.jpg";
-import vansh from "../../assets/vansh.jpg";
-import anil from "../../assets/anil.png";
+import sarika from "../../assets/sarika.jpeg";
+import vipin from "../../assets/vipin.jpeg";
+import rohit from "../../assets/rohit.jpeg";
+import vansh from "../../assets/vansh.jpeg";
+import yuvansh from "../../assets/yuvansh.jpeg";
 import sneha from "../../assets/sneha.jpeg";
 import naina from "../../assets/naina.jpeg";
-import naveen from "../../assets/nakay.png";
-import payal from "../../assets/payal.jpg";
-import krish from "../../assets/krish.png";
-import tushar from "../../assets/tushar.JPG";
+import naveen from "../../assets/naveen.jpeg";
+import payal from "../../assets/payal.jpeg";
+import krish from "../../assets/krish.jpeg";
+import tushar from "../../assets/tushar.jpeg";
 import akanshi from "../../assets/akanshi.jpeg";
 import aditya from "../../assets/aditya.jpg";
 
@@ -33,7 +33,7 @@ function Coreteamabout(){
                     </div>
                     <div className="fourcardcontainer">
                          <div className="smallcard">
-                            <img src={crictech} alt="about section" />
+                            <img src={rohit} alt="about section" />
                             <h2>Rohit Tiwari</h2>
                             <p>Documentation Head</p>
                          </div>
@@ -48,7 +48,7 @@ function Coreteamabout(){
                             <p>Promotion Head</p>
                          </div>
                          <div className="smallcard">
-                            <img src={anil} alt="about section" />
+                            <img src={yuvansh} alt="about section" />
                             <h2>Yuvansh Anjna</h2>
                             <p>HR Head</p>
                          </div>

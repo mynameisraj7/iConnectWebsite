@@ -1,5 +1,5 @@
 import "./PduAboutus.css";
-import aboutimage from "../../assets/aboutimg.png";
+import aboutimage from "../../assets/aboutimg.jpeg";
 import visionlogo from "../../assets/visionimg.png";
 
 function pduAboutus(){
@@ -27,11 +27,11 @@ function pduAboutus(){
                     </div>
                     <div className="visioncontent">
                         <h2>Our Mission</h2>
-                        <p>To cultivate an environment of creativity, inclusivity, and teamwork by connecting students from diverse disciplines.
-                           To provide mentorship, resources, and guidance for the development of innovative ideas and entrepreneurial ventures.
-                           To enhance students’ technical, managerial, and interpersonal skills through organized events, workshops, and collaborative projects.
-                           To contribute to the academic and professional excellence of its members while aligning with the broader objectives of PDUIIC and GJUS&T.
-                           To build a network of innovators and leaders committed to societal betterment and sustainable innovation.
+                        <p>1.To cultivate an environment of creativity, inclusivity, and teamwork by connecting students from diverse disciplines.<br/>
+                           2.To provide mentorship, resources, and guidance for the development of innovative ideas and entrepreneurial ventures.<br/>
+                           3.To enhance students’ technical, managerial, and interpersonal skills through organized events, workshops, and collaborative projects.<br/>
+                           4.To contribute to the academic and professional excellence of its members while aligning with the broader objectives of PDUIIC and GJUS&T.<br/>
+                           5.To build a network of innovators and leaders committed to societal betterment and sustainable innovation.
                         </p>
                     </div>
                 

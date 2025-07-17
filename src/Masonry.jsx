@@ -210,6 +210,7 @@ const Masonry = ({
           <div
             className="item-img"
             style={{ backgroundImage: `url(${item.img})` }}
+            onClick={(e) => e.stopPropagation()} //onclick stops the page from reloading
           >
             {colorShiftOnHover && (
               <div className="color-overlay" />

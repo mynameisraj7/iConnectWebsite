@@ -1,6 +1,6 @@
 import "./Manageaboutus.css";
 import bigcardimage from "../../assets/bigcard.png";
-import vishalgulati from "../../assets/vishalgulati.jpeg";
+import vishalgulati from "../../assets/vishalgulati.jpg";
 import munishgupta from "../../assets/munishgupta.jpg";
 import sumitsaroha from "../../assets/sumitsaroha.jpg";
 import sureshkumar from "../../assets/sureshkumar.jpg";

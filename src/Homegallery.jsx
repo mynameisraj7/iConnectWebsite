@@ -1,22 +1,32 @@
 import "./Homegallery.css";
-import photo1 from "./assets/galleryphoto1.png";
+import gallery1 from "./assets/Gallery1.jpeg";
+import gallery2 from "./assets/Gallery2.JPG";
+import gallery3 from "./assets/Gallery3.jpeg";
+import gallery4 from "./assets/Gallery4.jpg";
+import gallery5 from "./assets/Gallery5.JPG";
+import gallery7 from "./assets/Gallery7.JPG";
+import gallery9 from "./assets/Gallery9.jpeg";
+import gallery10 from "./assets/Gallery10.jpg";
+import gallery11 from "./assets/Gallery11.jpg";
+import gallery81 from "./assets/Gallery81.jpg";
+import gallery16 from "./assets/Gallery16.JPG";
 import Masonry from './Masonry';
 
 function Homegallery() {
 const items = [
-  { id: "1", img: photo1, url: "#", height: 380 },
-  { id: "2", img: photo1, url: "#", height: 380 },
-  { id: "3", img: photo1, url: "#", height: 280 },
-  { id: "4", img: photo1, url: "#", height: 600 },
-  { id: "5", img: photo1, url: "#", height: 350 },
-  { id: "6", img: photo1, url: "#", height: 310 },
-  { id: "7", img: photo1, url: "#", height: 550 },
-  { id: "8", img: photo1, url: "#", height: 470 },
-  { id: "9", img: photo1, url: "#", height: 320 },
-  { id: "10", img: photo1, url: "#", height:570 },
-  { id: "11", img: photo1, url: "#", height: 330 },
-  { id: "12", img: photo1, url: "#", height: 290 },
-  { id: "13", img: photo1, url: "#", height: 190 },
+  { id: "1", img: gallery1, url: "#", height: 380 },
+  { id: "2", img: gallery9, url: "#", height: 380 },
+  { id: "3", img: gallery3, url: "#", height: 280 },
+  { id: "4", img: gallery16, url: "#", height: 600 },
+  { id: "5", img: gallery7, url: "#", height: 350 },
+  { id: "6", img: gallery5, url: "#", height: 310 },
+  { id: "7", img: gallery11, url: "#", height: 550 },
+  { id: "8", img: gallery10, url: "#", height: 685 },
+  { id: "9", img: gallery81, url: "#", height: 630 },
+  { id: "10", img: gallery2, url: "#", height:570 },
+  { id: "11", img: gallery4, url: "#", height: 330 },
+  // { id: "12", img: photo1, url: "#", height: 290 },
+  // { id: "13", img: gallery10, url: "#", height: 190 },
 ];
 
 

@@ -1,5 +1,5 @@
 import "./Homeabout.css";
-import aboutimage from "./assets/aboutimg.png";
+import aboutimage from "./assets/aboutimg.jpeg";
 import leftlogo from "./assets/iconnectlogo.png";
 import aboutlogo from "./assets/iconlogo.png";
 import { Link } from 'react-router-dom';
