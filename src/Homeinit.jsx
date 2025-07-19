@@ -60,7 +60,7 @@ function Homeinit(){
                              <article className="initimgcont">
                                 <img src={learn} alt="about section" loading="lazy"/>
                             </article>
-                            <h2>IConnect Learners</h2>
+                            <h2>iConnect Learners</h2>
                             <p>A continuous learning initiative focused on student upskilling via training sessions, technical talks, and hands-on workshops.</p>
                             <div onClick={handleEsummitClick}>Learn more</div>
                         </div>
@@ -68,7 +68,7 @@ function Homeinit(){
                              <article className="initimgcont">
                                 <img src={sih} alt="about section" loading="lazy"/>
                             </article>
-                            <h2>Samrt India Hackathon(SIH)</h2>
+                            <h2>Smart India Hackathon(SIH)</h2>
                             <p>A national-level hackathon where our team not only competes but also organizes internal hackathons and mentorship drives.</p>
                             <div onClick={handleEsummitClick}>Learn more</div>
                         </div>
