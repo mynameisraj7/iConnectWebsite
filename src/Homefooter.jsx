@@ -30,7 +30,7 @@ function Homefooter() {
 
           <div className="footget">
             <h2>GET NOTIFIED</h2>
-            <p>Be the first to know about the activities of E-Cell.</p>
+            <p>Be the first to know about the activities of iConnect.</p>
             <div className="footgetcom">
               <input type="text" placeholder="Type email" />
               <button><i className='bx bx-envelope'></i></button>
