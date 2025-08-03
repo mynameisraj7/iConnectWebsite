@@ -61,7 +61,7 @@ function Navbar() {
             <li><a href="#initiative" onClick={(e) => handleScrollLink(e, "initiative")}>Our Initiative</a></li>
             <li><a href="#gallery" onClick={(e) => handleScrollLink(e, "gallery")}>Gallery</a></li>
             <li><a href="#contact" onClick={(e) => handleScrollLink(e, "contact")}>Contact</a></li>
-            <li><a href="esummit.iconnectgjust.in" target="_blank" rel="noopener noreferrer">Esummit</a></li>
+            <li><a href="https://esummit.iconnectgjust.in" target="_blank" rel="noopener noreferrer">Esummit</a></li>
           </ul>
           <a href="#" id="close" onClick={pressClick}><i className='bx bx-x'></i></a>
         </div>
