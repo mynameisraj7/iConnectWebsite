@@ -107,7 +107,29 @@
 .initcard div:hover {
   color: #d2d2d2; 
 }
-
+.esummitlink{
+  text-align: right;
+  font-family: "Roboto";
+  font-style: normal;
+  font-size: 1rem;
+  line-height: 150%;
+  color: #FFF;
+  font-weight: 500;
+  padding-right: 13px;
+  text-decoration-line: underline;
+  text-decoration-style: solid;
+  text-decoration-skip-ink: auto;
+  text-decoration-thickness: 7%; 
+  text-underline-offset: 24.5%; 
+  cursor: pointer;
+  margin-top: auto;
+  margin-bottom: 6px;
+  user-select: none;
+  -webkit-tap-highlight-color: transparent;
+}
+.esummitlink:hover {
+  color: #d2d2d2; 
+}
 
 .leftcont div:nth-child(1) {
   background: linear-gradient(151deg, rgba(255, 255, 255, 0.17), rgba(153, 153, 153, 0.17), rgba(219, 0, 9, 0.17));

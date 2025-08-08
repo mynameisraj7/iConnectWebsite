@@ -42,7 +42,7 @@ function Homeinit(){
                             </article>
                             <h2>E-Summit</h2>
                             <p>A grand entrepreneurship summit featuring keynote speakers, startup founders, panel discussions, and idea showcases.</p>
-                            <div onClick={handleEsummitClick}>Learn more</div>
+                             <a className="esummitlink" href="https://esummit.iconnectgjust.in" target="_blank" rel="noopener noreferrer">Learn more</a>
                         </div>
                     </div>
                     <div className="middlecont">
