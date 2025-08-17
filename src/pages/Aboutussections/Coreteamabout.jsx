@@ -1,5 +1,6 @@
 import "./Coreteamabout.css";
-import bigcardimage from "../../assets/bigcard.png";
+// import bigcardimage from "../../assets/bigcard.png";
+import rahul from "../../assets/rahul.jpeg";
 import sarika from "../../assets/sarika.jpeg";
 import vipin from "../../assets/vipin.jpeg";
 import rohit from "../../assets/rohit.jpeg";
@@ -92,8 +93,8 @@ function Coreteamabout(){
                             <p>Media Coordinator</p>
                          </div>
                          <div className="smallcard">
-                            <img src={bigcardimage} alt="about section" loading="lazy"/>
-                            <h2>Someone Sharma</h2>
+                            <img src={rahul} alt="about section" loading="lazy"/>
+                            <h2>Rahul Kumar</h2>
                             <p>Some Position</p>
                          </div>
                     </div>
