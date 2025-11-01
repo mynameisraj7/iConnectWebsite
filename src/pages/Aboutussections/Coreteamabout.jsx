@@ -63,7 +63,7 @@ function Coreteamabout(){
                          <div className="smallcard">
                             <img src={bigcardimage} alt="about section" loading="lazy"/>
                             <h2>Rashi</h2>
-                            <p></p>
+                            <p>Organizing and planning coordinator</p>
                          </div>
                          <div className="smallcard">
                             <img src={nikki} alt="about section" loading="lazy"/>
@@ -95,7 +95,7 @@ function Coreteamabout(){
                          <div className="smallcard">
                             <img src={rahul} alt="about section" loading="lazy"/>
                             <h2>Rahul Kumar</h2>
-                            <p>Organizing and planning coordinator</p>
+                            <p>HR Head</p>
                          </div>
                     </div>
                 </section>
