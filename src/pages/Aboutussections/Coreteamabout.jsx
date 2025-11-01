@@ -1,17 +1,17 @@
 import "./Coreteamabout.css";
-// import bigcardimage from "../../assets/bigcard.png";
+import bigcardimage from "../../assets/bigcard.png";
 import rahul from "../../assets/rahul.jpeg";
 import sarika from "../../assets/sarika.jpeg";
-import vipin from "../../assets/vipin.jpeg";
-import rohit from "../../assets/rohit.jpeg";
-import vansh from "../../assets/vansh.jpeg";
-import yuvansh from "../../assets/yuvansh.jpeg";
+import akhil from "../../assets/akhil.jpeg";
+import shreya from "../../assets/shreya.jpeg";
+import sanju from "../../assets/sanju.jpeg";
+//import yuvansh from "../../assets/yuvansh.jpeg";
 import sneha from "../../assets/sneha.jpeg";
 import naina from "../../assets/naina.jpeg";
-import naveen from "../../assets/naveen.jpeg";
+import prashant from "../../assets/prashant.jpeg";
 import payal from "../../assets/payal.jpeg";
 import krish from "../../assets/krish.jpeg";
-import tushar from "../../assets/tushar.jpeg";
+import nikki from "../../assets/nikki.jpeg";
 import akanshi from "../../assets/akanshi.jpeg";
 import aditya from "../../assets/aditya.jpg";
 
@@ -27,16 +27,16 @@ function Coreteamabout(){
                             <p>Captain</p>
                          </div>
                          <div className="smallcard">
-                            <img src={vipin} alt="about section" loading="lazy"/>
+                            <img src={akanshi} alt="about section" loading="lazy"/>
                             <h2>Vipin</h2>
                             <p>Captain</p>
                          </div>
                     </div>
                     <div className="fourcardcontainer">
                          <div className="smallcard">
-                            <img src={rohit} alt="about section" loading="lazy"/>
-                            <h2>Rohit Tiwari</h2>
-                            <p>Documentation Head</p>
+                            <img src={sanju} alt="about section" loading="lazy"/>
+                            <h2>Sanju Singh</h2>
+                            <p>Infographics Content Coordinator</p>
                          </div>
                          <div className="smallcard">
                             <img src={naina} alt="about section" loading="lazy"/>
@@ -44,12 +44,12 @@ function Coreteamabout(){
                             <p>Industrial Connect Head</p>
                          </div>
                          <div className="smallcard">
-                            <img src={vansh} alt="about section" loading="lazy"/>
-                            <h2>Vansh</h2>
-                            <p>Promotion Head</p>
+                            <img src={akhil} alt="about section" loading="lazy"/>
+                            <h2>Akhil Sharma</h2>
+                            <p>Documentation Head</p>
                          </div>
                          <div className="smallcard">
-                            <img src={yuvansh} alt="about section" loading="lazy"/>
+                            <img src={shreya} alt="about section" loading="lazy"/>
                             <h2>Yuvansh Anjna</h2>
                             <p>HR Head</p>
                          </div>
@@ -61,14 +61,14 @@ function Coreteamabout(){
                             <p>Website Coordinator</p>
                          </div>
                          <div className="smallcard">
-                            <img src={akanshi} alt="about section" loading="lazy"/>
-                            <h2>Akanshi Chhillar</h2>
-                            <p>Hospitality & Volunteering Coordinator</p>
+                            <img src={bigcardimage} alt="about section" loading="lazy"/>
+                            <h2>Rashi</h2>
+                            <p></p>
                          </div>
                          <div className="smallcard">
-                            <img src={tushar} alt="about section" loading="lazy"/>
-                            <h2>Tushar Sharma</h2>
-                            <p>Logistics & Sponsorship Coordinator</p>
+                            <img src={nikki} alt="about section" loading="lazy"/>
+                            <h2>Nikki Varma</h2>
+                            <p>Hospitality & Volunteering Coordinator</p>
                          </div>
                          <div className="smallcard">
                             <img src={payal} alt="about section" loading="lazy"/>
@@ -78,9 +78,9 @@ function Coreteamabout(){
                     </div>
                     <div className="fourcardcontainer">
                          <div className="smallcard">
-                            <img src={naveen} alt="about section" loading="lazy"/>
-                            <h2>Naveen</h2>
-                            <p>Infographic Coordinator</p>
+                            <img src={prashant} alt="about section" loading="lazy"/>
+                            <h2>Prashant</h2>
+                            <p>Sponsorship & Logistics Coordinator</p>
                          </div>
                          <div className="smallcard">
                             <img src={sneha} alt="about section" loading="lazy"/>
