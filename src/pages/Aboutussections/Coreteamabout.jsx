@@ -1,11 +1,11 @@
 import "./Coreteamabout.css";
-import bigcardimage from "../../assets/bigcard.png";
+// import bigcardimage from "../../assets/bigcard.png";
 import rahul from "../../assets/rahul.jpeg";
 import sarika from "../../assets/sarika.jpeg";
 import akhil from "../../assets/akhil.jpeg";
 import shreya from "../../assets/shreya.jpeg";
 import sanju from "../../assets/sanju.jpeg";
-//import yuvansh from "../../assets/yuvansh.jpeg";
+import rashi from "../../assets/rashi.jpg";
 import sneha from "../../assets/sneha.jpeg";
 import naina from "../../assets/naina.jpeg";
 import prashant from "../../assets/prashant.jpeg";
@@ -34,9 +34,9 @@ function Coreteamabout(){
                     </div>
                     <div className="fourcardcontainer">
                          <div className="smallcard">
-                            <img src={sanju} alt="about section" loading="lazy"/>
-                            <h2>Sanju Singh</h2>
-                            <p>Infographics Content Coordinator</p>
+                            <img src={rahul} alt="about section" loading="lazy"/>
+                            <h2>Rahul Kumar</h2>
+                            <p>HR Head</p>
                          </div>
                          <div className="smallcard">
                             <img src={naina} alt="about section" loading="lazy"/>
@@ -61,7 +61,7 @@ function Coreteamabout(){
                             <p>Website Coordinator</p>
                          </div>
                          <div className="smallcard">
-                            <img src={bigcardimage} alt="about section" loading="lazy"/>
+                            <img src={rashi} alt="about section" loading="lazy"/>
                             <h2>Rashi</h2>
                             <p>Organizing and Planning Coordinator</p>
                          </div>
@@ -93,9 +93,9 @@ function Coreteamabout(){
                             <p>Media Coordinator</p>
                          </div>
                          <div className="smallcard">
-                            <img src={rahul} alt="about section" loading="lazy"/>
-                            <h2>Rahul Kumar</h2>
-                            <p>HR Head</p>
+                            <img src={sanju} alt="about section" loading="lazy"/>
+                            <h2>Sanju Singh</h2>
+                            <p>Infographics Content Coordinator</p>
                          </div>
                     </div>
                 </section>
