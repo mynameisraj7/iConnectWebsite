@@ -5,7 +5,7 @@ import sarika from "../../assets/sarika.jpeg";
 import akhil from "../../assets/akhil.jpeg";
 import shreya from "../../assets/shreya.jpeg";
 import sanju from "../../assets/sanju.jpeg";
-import rashi from "../../assets/rashi.jpg";
+import rashi from "../../assets/rashi.jpeg";
 import sneha from "../../assets/sneha.jpeg";
 import naina from "../../assets/naina.jpeg";
 import prashant from "../../assets/prashant.jpeg";
