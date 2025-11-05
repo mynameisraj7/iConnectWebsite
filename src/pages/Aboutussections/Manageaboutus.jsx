@@ -1,8 +1,8 @@
 import "./Manageaboutus.css";
 // import bigcardimage from "../../assets/bigcard.png";
-import manprofile from "../../assets/manprofile.jpg";
+//import manprofile from "../../assets/manprofile.jpg";
 import puneet from "../../assets/puneet.jpeg";
-// import sumitsaroha from "../../assets/sumitsaroha.jpg";
+import vimal from "../../assets/vimal.jpeg";
 // import sureshkumar from "../../assets/sureshkumar.jpg";
 
 function Manageaboutus(){
@@ -24,7 +24,7 @@ function Manageaboutus(){
                     <p>Director PDUIIC</p>
                  </div>
                  <div className="smallcard">
-                    <img src={manprofile} alt="about section" loading="lazy"/>
+                    <img src={vimal} alt="about section" loading="lazy"/>
                     <h2>Mr. Vimal K Jha</h2>
                     <p>Deputy Director PDUIIC</p>
                  </div>
