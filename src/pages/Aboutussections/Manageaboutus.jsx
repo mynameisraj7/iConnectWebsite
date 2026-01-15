@@ -1,7 +1,7 @@
 import "./Manageaboutus.css";
 // import bigcardimage from "../../assets/bigcard.png";
 //import manprofile from "../../assets/manprofile.jpg";
-import puneet from "../../assets/puneet.jpeg";
+import opsang from "../../assets/opsangwansir.jpg";
 import vimal from "../../assets/vimal.jpeg";
 // import sureshkumar from "../../assets/sureshkumar.jpg";
 
@@ -19,8 +19,8 @@ function Manageaboutus(){
             </div> */}
             <div className="fourcardcontainer">
                  <div className="smallcard">
-                    <img src={puneet} alt="about section" loading="lazy"/>
-                    <h2>Prof. Puneet Katyal</h2>
+                    <img src={opsang} alt="about section" loading="lazy"/>
+                    <h2>Prof. O.P Sangwan</h2>
                     <p>Director PDUIIC</p>
                  </div>
                  <div className="smallcard">
