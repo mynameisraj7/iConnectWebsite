@@ -2,7 +2,7 @@ import "./Coreteamabout.css";
 // import bigcardimage from "../../assets/bigcard.png";
 import rahul from "../../assets/rahul.jpeg";
 import sarika from "../../assets/sarika.jpeg";
-import akhil from "../../assets/akhil.jpeg";
+import akhil from "../../assets/akhil1.jpeg";
 import shreya from "../../assets/shreya.jpeg";
 import sanju from "../../assets/sanju.jpeg";
 import rashi from "../../assets/rashi.jpeg";
