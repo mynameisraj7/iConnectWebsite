@@ -34,7 +34,7 @@ function Homeinit(){
                             </article>
                             <h2>Konark TechFest</h2>
                             <p>Our flagship tech fest, celebrating creativity, coding, and cutting-edge technology with workshops, hackathons, and competitions.</p>
-                            <div onClick={handleEsummitClick}>Learn more</div>
+                            <a className="esummitlink" href="https://konark26.iconnectgjust.in" target="_blank" rel="noopener noreferrer">Learn more</a>
                         </div>
                         <div className="initcard">
                             <article className="initimgcont">
