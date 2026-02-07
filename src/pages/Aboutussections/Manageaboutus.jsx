@@ -1,5 +1,5 @@
 import "./Manageaboutus.css";
-import bigcardimage from "../../assets/bigcard.png";
+// import bigcardimage from "../../assets/bigcard.png";
 //import manprofile from "../../assets/manprofile.jpg";
 import opsang from "../../assets/opdirector.jpeg";
 import vimal from "../../assets/vimalk.jpeg";
