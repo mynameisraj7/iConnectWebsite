@@ -1,17 +1,17 @@
 import "./Manageaboutus.css";
 // import bigcardimage from "../../assets/bigcard.png";
 //import manprofile from "../../assets/manprofile.jpg";
-import opsang from "../../assets/opdirector.jpeg";
-import vimal from "../../assets/vimalk.jpeg";
-import sunil from "../../assets/sunil.jpeg";
-import vijay from "../../assets/Vijay.jpeg";
-import rajendar from "../../assets/rajendar.jpeg";
+import opsang from "../../assets/oopsangwan.jpeg";
+import vimal from "../../assets/vvimal.jpeg";
+import sunil from "../../assets/ssunil.jpeg";
+import vijay from "../../assets/vvijay.jpeg";
+import rajendar from "../../assets/rajenderr.jpeg";
 
 function Manageaboutus(){
     return(
         <>
         <section className="greysec">
-            <h1>Management team</h1>
+            <h1>Faculty</h1>
             {/* <div className="onecardcontainer">
                     <div className="bigcard">
                         <img src={vishalgulati} alt="about section" loading="lazy"/>
