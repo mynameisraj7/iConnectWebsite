@@ -16,19 +16,19 @@ function Manageaboutus(){
         <>
         <section className="greysec">
             <h1>Faculty</h1>
-            {/* <div className="onecardcontainer">
+            <div className="onecardcontainer">
                     <div className="bigcard">
-                        <img src={vishalgulati} alt="about section" loading="lazy"/>
+                        <img src={opsang} alt="about section" loading="lazy"/>
                         <h2>Vishal Gulati</h2>
                         <p>Director PDUIIC</p>
                     </div>
-            </div> */}
+            </div>
             <div className="fourcardcontainer">
-                 <div className="smallcard">
+                 {/* <div className="smallcard">
                     <img src={opsang} alt="about section" loading="lazy"/>
                     <h2>Prof. O.P Sangwan</h2>
                     <p>Director PDUIIC</p>
-                 </div>
+                 </div> */}
                  <div className="smallcard">
                     <img src={vimal} alt="about section" loading="lazy"/>
                     <h2>Mr. Vimal K Jha</h2>
@@ -40,11 +40,6 @@ function Manageaboutus(){
                     <img src={sunil} alt="about section" loading="lazy"/>
                     <h2>Dr. Sunil Kumar</h2>
                     <p>Coordinator PDUIIC</p>
-                 </div>
-                 <div className="smallcard">
-                    <img src={vijay} alt="about section" loading="lazy"/>
-                    <h2>Dr. Vijay Pal Singh</h2>
-                    <p>Coordinator Idea Lab</p>
                  </div>
                  <div className="smallcard">
                     <img src={rajendar} alt="about section" loading="lazy"/>
@@ -63,14 +58,22 @@ function Manageaboutus(){
                     <h2>Dr. Narender Kumar</h2>
                     <p>Coordinator Idea Lab</p>
                  </div>
+                 
+            </div>
+            <div className="fourcardcontainer">
                  <div className="smallcard">
-                    <img src={sandeep} alt="about section" loading="lazy"/>
-                    <h2>Dr. Sandeep Jindal</h2>
+                    <img src={vijay} alt="about section" loading="lazy"/>
+                    <h2>Dr. Vijay Pal Singh</h2>
                     <p>Coordinator Idea Lab</p>
                  </div>
                  <div className="smallcard">
                     <img src={sumit} alt="about section" loading="lazy"/>
                     <h2>Dr. Sumit Sharma</h2>
+                    <p>Coordinator Idea Lab</p>
+                 </div>
+                 <div className="smallcard">
+                    <img src={sandeep} alt="about section" loading="lazy"/>
+                    <h2>Dr. Sandeep Jindal</h2>
                     <p>Coordinator Idea Lab</p>
                  </div>
             </div>
