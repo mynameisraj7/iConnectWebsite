@@ -19,7 +19,7 @@ function Manageaboutus(){
             <div className="onecardcontainer">
                     <div className="bigcard">
                         <img src={opsang} alt="about section" loading="lazy"/>
-                        <h2>Vishal Gulati</h2>
+                        <h2>Prof. O.P Sangwan</h2>
                         <p>Director PDUIIC</p>
                     </div>
             </div>
