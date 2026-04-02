@@ -21,7 +21,7 @@ function Hometouch(){
                             <input type="text" placeholder="some@example.com"></input>
                         </div>
                         <div className="frame2">
-                            <div>How can we help you?</div>
+                            <div>Howw can we help you?</div>
                             <textarea type="text" placeholder="......."></textarea>
                         </div>
                         <button className="contbutton">Submit</button>
