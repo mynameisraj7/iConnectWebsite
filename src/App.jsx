@@ -8,7 +8,7 @@ import Homegallery from "./Homegallery";
 import Hometouch from "./Hometouch";
 import Homefooter from "./Homefooter";
 import AboutusPage from './pages/Aboutus';
-import NotFound from "./pages/NotFound";
+import NotFound from "./NotFound";
 
 function App() {
   const location = useLocation();
